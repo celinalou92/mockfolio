@@ -34,12 +34,14 @@
     
       .navbar {
         background-color: #1C1C1D;
+        display: flex;
+        justify-content: space-between;
       }
     
       .navbar-toggler img {
         height: 40px;
       }
-    
+
         
       .fas .fa-bars{
         border-color: rgb(214,162,58);
@@ -238,13 +240,7 @@
         }
     }
     
-    
-    @media screen and (max-width: 300px){
-        .hero{
-          margin: 30px;
-      }
-    }
-    
+   
     
     /* start about me */
     
@@ -447,4 +443,10 @@
     }
     
      
-    
+     
+    @media screen and (max-width: 300px){
+      .hero{
+        margin: 30px;
+    }
+  }
+  
