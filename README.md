@@ -8,4 +8,4 @@ HTML CCS JavaScript
 https://celinalou92.github.io/mockfolio/
 
 #Screen Grab of Mobile
-![Mockfolio Screen Grab](./images/screengrab)
+![Mockfolio Screen Grab](./images/screengrab.png)
