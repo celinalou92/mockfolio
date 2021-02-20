@@ -245,25 +245,7 @@
         object-fit: cover;
         object-position: top;
       }
-
-      .project-image img {
-        height: 50vh;
-        border-radius: 20px;
-        width: auto;
-        object-fit: cover;
-        object-position: top;
-      }
     
-      
-      .ow_cta {
-        background-color: black;
-        color: white;
-        display: none;
-        height: 15vh;
-        justify-content: space-around;
-        align-items: center;
-    
-      }
       .contact-container{
         width: 400px;
       }
