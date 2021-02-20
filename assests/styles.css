@@ -22,7 +22,7 @@
         font-family: 'Raleway', sans-serif;
       }
       
-      
+  /* Start Nav Styles */
        .btn, .nav-link, .navbar-brand {
         font-family: 'Raleway', sans-serif;
         color: #FF7972;
@@ -50,7 +50,7 @@
       }
     
     
-    /* start hero styles */
+    /* Start Hero Section Styles */
       .hero{
         height: calc(100vh - 80px);
         display: flex;
@@ -112,45 +112,7 @@
       text-shadow: 1px 1px 1px rgba(199, 81, 81, 0.8);
     }
     
-
-    
-        .hero-contents {
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-        }
-    
-        .hero-text{
-          width: 300px;
-        }
-    
-        .hero-img {
-          height: 300px;
-          width: 300px;
-          border-radius: 20%;
-        }
-    
-        .hero-img img{
-          height: 300px;
-          width: auto;
-        }
-    
-        #hero-h1, #im-celina {
-          font-size: 2.5rem;
-          color: #ffffff;
-          letter-spacing: .2rem;
-          text-shadow: 1px 1px 1px rgba(214, 178, 17, .08);
-        }
-      
-      #hero-p {
-        text-transform: uppercase;
-        color: #9290A3;
-        font-size: .8rem;
-        letter-spacing: .4rem;
-      }
-
-    /* About Me Styles */
+    /* Start About Me Styles*/
     
     .about {
       display: flex;
@@ -175,7 +137,7 @@
       padding-bottom: 30px;
     }
     
-    /* Skill Section Styles */
+    /* Start Skill Section Styles */
     
     .skill-container {
       height: 70vh;
@@ -330,16 +292,53 @@
     margin: 40px;
     margin-left: 0;
   }
+
+  .hero-contents {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .hero-text{
+    width: 300px;
+  }
+
+  .hero-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+  }
+
+  .hero-img img{
+    height: 300px;
+    width: auto;
+  }
+
+  #hero-h1, #im-celina {
+    font-size: 2.5rem;
+    color: #ffffff;
+    letter-spacing: .2rem;
+    text-shadow: 1px 1px 1px rgba(214, 178, 17, .08);
+  }
+
+#hero-p {
+  text-transform: uppercase;
+  color: #9290A3;
+  font-size: .8rem;
+  letter-spacing: .4rem;
+}
+}
      
-  @media screen and (max-width: 300px){
-  .hero{  
-    margin: 30px;
+    @media screen and (max-width: 300px){
+      .hero{
+        margin: 30px;
     }
   }
   
 /* Skill container media query */
-@media screen and (max-width: 800px) {
-  .skill-container {
-     height: auto;
+  @media screen and (max-width: 800px) {
+    .skill-container {
+      height: auto;
+    }
   }
- }
